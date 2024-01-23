@@ -1,0 +1,214 @@
+/* =======TAGS======= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color:#434455;
+    background-color:#FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+img {
+	display: block;
+}
+
+/* ============== */
+
+
+/* =======HEADER======= */
+
+.webstudio {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.studio {
+    color: #2E2F42;
+}
+
+.webstudio:hover, 
+.webstudio:focus {
+    color: #404bbf;
+}
+
+.header-menu {
+    font-weight: 500;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.header-menu:hover, 
+.header-menu:focus {
+    color: #404BBF;
+}
+
+.header-contacts {
+    line-height: 1.5;
+    color: #434455;
+}
+
+.header-contacts:hover, 
+.header-contacts:focus {
+    color: #404BBF;
+}
+
+/* ============== */
+
+
+/* =======HERO======= */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.hero-button {
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.hero-button:hover, 
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* ============== */
+
+
+/* =======ADVANTAGES======= */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-title {
+    line-height: 150%;
+}
+
+/* ============== */
+
+
+/* =======OUR TEAM======= */
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.team-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.team-position {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.team-frame {
+    background-color: #FFF;
+}
+
+/* ============== */
+
+
+/* =======PORTFOLIO======= */
+
+.product {
+    line-height: 1.5;
+}
+
+/* ============== */
+
+
+/* =======FOOTER======= */
+
+.webstudio-footer {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.studio-footer {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+}
+
+#Contacts {
+    background-color: #2E2F42;
+}
+
+/* ============== */
